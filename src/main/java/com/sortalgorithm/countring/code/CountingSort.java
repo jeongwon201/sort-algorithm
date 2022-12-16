@@ -1,19 +1,10 @@
-package com.sortalgorithm.countring;
+package com.sortalgorithm.countring.code;
 
 
-import com.sortalgorithm.common.CommonMethod;
-
-public class CountingSort {
-    public static void main(String[] args) throws Exception {
-
-        int[] nums = CommonMethod.getArray();
-        int[] sortedNums = countingSort(nums);
-
-        CommonMethod.printArray(sortedNums);
-    }
+class CountingSort {
 
     // 최댓값 구하기
-    public static int max(int[] nums) {
+    static int max(int[] nums) {
         int max = 0;
         for (int num : nums) {
             if (max < num) max = num;
@@ -22,7 +13,7 @@ public class CountingSort {
         return max;
     }
 
-    public static int[] countingSort(int[] nums) {
+    static int[] sort(int[] nums) {
         // 입력 배열의 최댓값 구하기
         int max = max(nums);
 

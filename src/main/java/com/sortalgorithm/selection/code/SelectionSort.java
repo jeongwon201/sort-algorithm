@@ -1,18 +1,7 @@
-package com.sortalgorithm.selection;
+package com.sortalgorithm.selection.code;
 
-
-import com.sortalgorithm.common.CommonMethod;
-
-public class SelectionSort {
-    public static void main(String[] args) throws Exception {
-
-        int[] nums = CommonMethod.getArray();
-        selectionSort(nums);
-
-        CommonMethod.printArray(nums);
-    }
-
-    public static int[] selectionSort(int[] nums) {
+class SelectionSort {
+    static int[] sort(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             int min_idx = i;
 

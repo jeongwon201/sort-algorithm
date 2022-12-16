@@ -1,17 +1,9 @@
-package com.sortalgorithm.insertion;
+package com.sortalgorithm.insertion.code;
 
 
-import com.sortalgorithm.common.CommonMethod;
+class InsertionSort {
 
-public class InsertionSort {
-    public static void main(String[] args) throws Exception {
-
-        int nums[] = CommonMethod.getArray();
-        insertionSort(nums);
-        CommonMethod.printArray(nums);
-    }
-
-    public static int[] insertionSort(int[] nums) {
+    static int[] sort(int[] nums) {
 
         for (int i = 1; i < nums.length; i++) {
             int target = nums[i];
