@@ -8,7 +8,9 @@ public class Main {
 
         int[] arr = {9, 5, 7, 3, 6, 2, 8, 1, 4};
 
-        System.out.println("arr              : " + Arrays.toString(arr));
-        System.out.println("sorted arr(shell): " + Arrays.toString(ShellSort.sort(arr, GapSequence.Ciura)));
+        System.out.println("[Shell Sort - Ciura]");
+        System.out.println("arr       : " + Arrays.toString(arr));
+        ShellSort.sort(arr, GapSequence.Ciura);
+        System.out.println("sorted arr: " + Arrays.toString(arr));
     }
 }

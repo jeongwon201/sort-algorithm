@@ -13,7 +13,7 @@ class ShellSort {
         return --idx;
     }
 
-    static int[] sort(int[] nums, int[] gapSequence) {
+    static void sort(int[] nums, int[] gapSequence) {
 
         int gapIdx = getGap(gapSequence, nums.length);
 
@@ -28,7 +28,5 @@ class ShellSort {
                 }
             }
         }
-
-        return nums;
     }
 }

@@ -3,7 +3,7 @@ package com.sortalgorithm.insertion.code;
 
 class InsertionSort {
 
-    static int[] sort(int[] nums) {
+    static void sort(int[] nums) {
 
         for (int i = 1; i < nums.length; i++) {
             int target = nums[i];
@@ -17,7 +17,5 @@ class InsertionSort {
 
             nums[prevIdx + 1] = target;
         }
-
-        return nums;
     }
 }

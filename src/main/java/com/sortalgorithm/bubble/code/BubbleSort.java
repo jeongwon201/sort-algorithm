@@ -2,7 +2,7 @@ package com.sortalgorithm.bubble.code;
 
 class BubbleSort {
 
-    static int[] sort(int[] nums) {
+    static void sort(int[] nums) {
 
         for (int round = 1; round < nums.length; round++) {
 
@@ -14,11 +14,9 @@ class BubbleSort {
                 }
             }
         }
-
-        return nums;
     }
 
-    static int[] sortWithCondition(int[] nums) {
+    static void sortWithCondition(int[] nums) {
 
         for (int round = 1; round < nums.length; round++) {
 
@@ -38,7 +36,5 @@ class BubbleSort {
                 break;
             }
         }
-
-        return nums;
     }
 }

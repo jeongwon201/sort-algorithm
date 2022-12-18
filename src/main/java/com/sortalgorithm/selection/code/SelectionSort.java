@@ -1,7 +1,7 @@
 package com.sortalgorithm.selection.code;
 
 class SelectionSort {
-    static int[] sort(int[] nums) {
+    static void sort(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             int min_idx = i;
 
@@ -16,7 +16,5 @@ class SelectionSort {
             nums[i] = nums[min_idx];
             nums[min_idx] = temp;
         }
-
-        return nums;
     }
 }
