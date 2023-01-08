@@ -1,7 +1,5 @@
 package com.sortalgorithm.merge.code;
 
-import java.util.Arrays;
-
 public class MergeSort {
 
     static int[] sortedArr;
@@ -69,11 +67,8 @@ public class MergeSort {
             }
         }
 
-        //System.out.println("merge arr : " + Arrays.toString(Arrays.copyOfRange(arr, left, right + 1)));
         for (int i = left; i <= right; i++) {
             arr[i] = sortedArr[i];
         }
-        //System.out.println("sorted arr: " + Arrays.toString(sortedArr));
-        //System.out.println();
     }
 }

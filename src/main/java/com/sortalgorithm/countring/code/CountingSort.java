@@ -4,24 +4,24 @@ package com.sortalgorithm.countring.code;
 class CountingSort {
 
     // 최댓값 구하기
-    static int max(int[] nums) {
+    static int max(int[] arr) {
         int max = 0;
-        for (int num : nums) {
+        for (int num : arr) {
             if (max < num) max = num;
         }
 
         return max;
     }
 
-    static int[] sort(int[] nums) {
+    static int[] sort(int[] arr) {
         // 입력 배열의 최댓값 구하기
-        int max = max(nums);
+        int max = max(arr);
 
-        int[] sortedNums = new int[nums.length];
+        int[] sortedNums = new int[arr.length];
         int[] count = new int[max + 1];
 
         // 입력 배열의 요소 카운트
-        for (int num : nums) {
+        for (int num : arr) {
             count[num]++;
         }
 
@@ -31,8 +31,8 @@ class CountingSort {
         }
 
         // 정렬된 출력 배열 구하기
-        for (int i = nums.length - 1; i >= 0; i--) {
-            int num = nums[i];
+        for (int i = arr.length - 1; i >= 0; i--) {
+            int num = arr[i];
             count[num]--;
             sortedNums[count[num]] = num;
         }
