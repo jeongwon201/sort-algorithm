@@ -13,8 +13,7 @@
 
 <br />
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/7zuGmKfUt7s" title="Counting Sort | GeeksforGeeks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<a href="https://www.youtube.com/embed/7zuGmKfUt7s">카운팅 정렬 영상</a>
 <br />
 
 **[0:19 ~ 0:23]**   
