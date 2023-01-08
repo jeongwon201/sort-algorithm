@@ -14,6 +14,7 @@
 <br />
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/7zuGmKfUt7s" title="Counting Sort | GeeksforGeeks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br />
 
 **[0:19 ~ 0:23]**   
@@ -21,17 +22,17 @@
 <br />
 
 **[0:23 ~ 0:43]**   
-입력 배열의 요소를 계수(count)하여 카운팅 배열의 인덱스에 배치한다.
+입력 배열의 요소를 계수(count)하여 카운팅 배열의 인덱스에 배치한다.   
 <br />
 
 **[0:43 ~ 1:15]**   
 카운팅 배열의 요소에 직전 요소의 값을 더한다.   
-앞서 카운팅 배열에 대한 설명 중 **전위 합**에 해당하는 작업이다.
+앞서 카운팅 배열에 대한 설명 중 **전위 합**에 해당하는 작업이다.   
 <br />
 
 **[1:15 ~ 1:57]**   
 입력 배열과 같은 길이의 출력 배열을 생성한다.   
-입력 배열의 요소를 출력 배열에 배치한다.
+입력 배열의 요소를 출력 배열에 배치한다.   
 <br />
 
 입력 배열의 요소를 출력 배열의 어느 인덱스에 배치할 것인가는 다음 규칙을 통해 확인할 수 있다.
