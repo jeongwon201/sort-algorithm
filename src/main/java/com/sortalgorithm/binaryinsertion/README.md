@@ -1,7 +1,7 @@
 # Binary Insertion, 이진 삽입 정렬
 
 > 이진 삽입 정렬을 학습하기 전에 삽입 정렬에 대한 이해가 필요하다.   
-> <a href="https://github.com/jeongwon201/sort-algorithm/tree/main/src/main/java/com/sortalgorithm/insertion">힙 자료구조</a>
+> <a href="https://github.com/jeongwon201/sort-algorithm/tree/main/src/main/java/com/sortalgorithm/insertion">삽입 정렬</a>
 
 **이진 삽입 정렬** 이란, 삽입 정렬에 이분(이진) 탐색을 결합한 알고리즘이다.   
 <br />
