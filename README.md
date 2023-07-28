@@ -9,6 +9,9 @@
 
 ## 목차
 
+> ※ 모든 코드는 ```JAVA``` 로 구현되어 있습니다.
+<br />
+
 - <a href="https://github.com/jeongwon201/sort-algorithm/tree/main/src/main/java/com/sortalgorithm/selection">선택 정렬(Selection Sort)</a>
 - <a href="https://github.com/jeongwon201/sort-algorithm/tree/main/src/main/java/com/sortalgorithm/insertion">삽입 정렬(Insertion Sort)</a>
 - <a href="https://github.com/jeongwon201/sort-algorithm/tree/main/src/main/java/com/sortalgorithm/bubble">버블 정렬(Bubble Sort)</a>
